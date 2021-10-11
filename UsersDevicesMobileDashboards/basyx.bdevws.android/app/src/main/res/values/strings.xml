@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Basyx</string>
+    <string name="title_activity_aas_registry">AAS List</string>
+    <string name="title_activity_aas">AAS</string>
+    <string name="title_activity_sub_model">SubModel</string>
+    <string name="title_activity_registry">Registry Server List</string>
+    <string name="title_activity_user_login">BaSyx BDE-VWS</string>
+
+    <string name="error">An error occurred.</string>
+    <string name="error_view">Error in view occurred.</string>
+    <string name="error_connection">A connection error occurred.</string>
+    <string name="error_connection_device_setup">Connection to the device setup server is currently not possible.</string>
+</resources>

@@ -1,0 +1,1253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArchiverConfiguration Version="20">
+  <UnitOfLength>m</UnitOfLength>
+  <Profiles Count="1">
+    <Profile Name="As is" ReadOnly="1" Version="6">
+      <ProfileType>0</ProfileType>
+      <AbsoluteTimebase>0</AbsoluteTimebase>
+      <Timebase>100000</Timebase>
+      <FilteringMode>0</FilteringMode>
+      <Compression>0</Compression>
+      <Precision>0.1</Precision>
+      <TimeBased>1</TimeBased>
+      <LengthBased>0</LengthBased>
+      <Lengthbase>1000</Lengthbase>
+      <LengthFilterMode>0</LengthFilterMode>
+    </Profile>
+  </Profiles>
+  <ExternalTriggers Count="0" />
+  <UnSyncedExternalTriggers Count="0" />
+  <ArchiverLevels Count="1">
+    <ArchiverLevelConfiguration Name="Aufzeichnung 1">
+      <Active>1</Active>
+      <Locked>0</Locked>
+      <MaximumFileTime>6000000000</MaximumFileTime>
+      <FlushInterval>-10</FlushInterval>
+      <PauseSignal>[65534:259543]</PauseSignal>
+      <StoreTextValueAtStart>0</StoreTextValueAtStart>
+      <TriggerAtStart>0</TriggerAtStart>
+      <AsyncFileAccess>0</AsyncFileAccess>
+      <Password />
+      <StartTrigger>
+        <Unconditional>1</Unconditional>
+        <PreTriggerTime>0</PreTriggerTime>
+        <TriggerSignal>[65534:259543]</TriggerSignal>
+        <TriggerType>0</TriggerType>
+        <TriggerLevel>0</TriggerLevel>
+        <ReOccurenceHandling>0</ReOccurenceHandling>
+        <ExtensionLimit>3</ExtensionLimit>
+        <MaxOverlappedFiles>2</MaxOverlappedFiles>
+        <UsePeriodic>0</UsePeriodic>
+        <PeriodicPeriod>60</PeriodicPeriod>
+        <PeriodicStartHours>0</PeriodicStartHours>
+        <PeriodicStartMinutes>0</PeriodicStartMinutes>
+        <PreTriggerInMemory>0</PreTriggerInMemory>
+        <StartTriggerDeadTime>0</StartTriggerDeadTime>
+        <UseTriggerPool>0</UseTriggerPool>
+        <TriggerPool>
+          <LevelTrigger>0</LevelTrigger>
+          <Signals />
+          <ExternalTriggers />
+        </TriggerPool>
+      </StartTrigger>
+      <StopTrigger>
+        <Unconditional>1</Unconditional>
+        <PostTriggerTime>0</PostTriggerTime>
+        <TriggerSignal>[65534:259543]</TriggerSignal>
+        <TriggerType>1</TriggerType>
+        <TriggerLevel>0</TriggerLevel>
+        <UseTechno>0</UseTechno>
+        <TechnoId>[65534:259543]</TechnoId>
+        <UseTriggerPool>0</UseTriggerPool>
+        <TriggerPool>
+          <LevelTrigger>0</LevelTrigger>
+          <Signals />
+          <ExternalTriggers />
+        </TriggerPool>
+      </StopTrigger>
+      <FileConfiguration>
+        <BaseFileName>pda</BaseFileName>
+        <MaxFileNumber>1000</MaxFileNumber>
+        <CurrentFileIndex>58</CurrentFileIndex>
+        <FileNaming>3</FileNaming>
+        <ReuseTechnoFileName>0</ReuseTechnoFileName>
+        <TechnoFileNameId>[65534:259543]</TechnoFileNameId>
+        <TrimAll>0</TrimAll>
+        <FileExtension>dat</FileExtension>
+        <BaseDirectory>C:\dat\</BaseDirectory>
+        <DriveUserName />
+        <DrivePassword />
+        <BackupDirectory>C:\dat\</BackupDirectory>
+        <MaxSubDirs>31</MaxSubDirs>
+        <SubDirOrganization>0</SubDirOrganization>
+        <StartOfDay>0</StartOfDay>
+        <FirstDayOfWeek>1</FirstDayOfWeek>
+        <WeekRule>2</WeekRule>
+        <SplitSubdirs>0</SplitSubdirs>
+        <ResetFileIndexOnNewDir>0</ResetFileIndexOnNewDir>
+        <Use4NumberYears>0</Use4NumberYears>
+        <MinimumFreeSpace>100</MinimumFreeSpace>
+        <KeepMinimumFiles>0</KeepMinimumFiles>
+        <MinimumNumberOfFiles>100</MinimumNumberOfFiles>
+        <PostProcessingCommand />
+        <TechnoFileNameAtStart>1</TechnoFileNameAtStart>
+        <InfoFieldsAtStart>1</InfoFieldsAtStart>
+        <ReuseInfoFields>0</ReuseInfoFields>
+        <InfoFieldIds />
+        <UseSystemTime>0</UseSystemTime>
+        <MaxFiles>1000</MaxFiles>
+        <Quota>1000</Quota>
+        <AutoCleanup>0</AutoCleanup>
+        <CleanupMode>0</CleanupMode>
+      </FileConfiguration>
+      <Signals Count="140">
+        <Signal>
+          <Id>[0:0]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:1]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:2]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:3]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:4]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:5]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:6]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:7]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:8]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:9]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:10]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:11]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:12]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:13]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:14]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:15]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:16]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:17]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:18]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:19]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:20]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:21]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:22]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:23]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:24]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:25]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:26]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[0:27]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:2]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:3]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:4]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:5]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:6]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:7]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:13]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:15]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:18]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:19]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:20]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:21]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:22]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:23]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:24]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:25]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:26]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:27]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:29]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1:30]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1.28]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[1.29]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:4]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:5]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:6]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:7]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:8]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:9]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:10]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:11]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:12]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:13]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:14]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:15]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:16]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:17]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:18]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:19]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:20]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:21]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:22]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:23]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:24]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:25]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:26]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:27]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:28]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:29]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:30]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[2:31]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:0]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:1]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:2]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:3]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:4]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:6]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:8]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:10]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:11]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:12]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:13]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:14]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3:15]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.3]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.4]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.5]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.6]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.7]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.8]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.9]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.11]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.12]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.13]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.14]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.15]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.16]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.17]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.26]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[3.27]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[4:0]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[5:0]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[5.0]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[6.0]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:0]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:1]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:2]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:3]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:4]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:5]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:6]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:10]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:11]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:12]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:13]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:14]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:15]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:16]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:20]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:21]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:22]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:23]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:24]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:25]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:26]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:30]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:31]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:32]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:33]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:34]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:35]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[8:36]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+        <Signal>
+          <Id>[14.0]</Id>
+          <Profile>As is</Profile>
+        </Signal>
+      </Signals>
+      <DefaultProfile>As is</DefaultProfile>
+      <DefaultProfileIndex>0</DefaultProfileIndex>
+      <VideoChannels />
+      <ImageTriggersServers />
+    </ArchiverLevelConfiguration>
+  </ArchiverLevels>
+  <HDArchiverLevels Count="0" />
+  <DBArchiverLevels Count="0" />
+  <KafkaArchiverLevels Count="1">
+    <KafkaArchiverLevel Type="64">
+      <Id>7ad0b546-628e-4908-b70b-ce3bd014fdab</Id>
+      <Name>Kafka Data Provisioning</Name>
+      <Active>1</Active>
+      <TempDisabled>0</TempDisabled>
+      <Locked>0</Locked>
+      <BatchNumMessages>10000</BatchNumMessages>
+      <LingerMs>0</LingerMs>
+      <MaxBufferSizeInMB>8</MaxBufferSizeInMB>
+      <Identifier />
+      <ClusterType>1</ClusterType>
+      <SecurityType>1</SecurityType>
+      <SSL>
+        <CaThumbprint />
+        <ClientThumbprint />
+      </SSL>
+      <SASL>
+        <SaslType>1</SaslType>
+        <Username />
+        <Password />
+      </SASL>
+      <ClusterAddress>lns-90165.sb.dfki.de:9092</ClusterAddress>
+      <MsgTimeoutMs>30000</MsgTimeoutMs>
+      <AckMode>2</AckMode>
+      <ExpertParameters />
+      <StartTrigger>
+        <Unconditional>1</Unconditional>
+        <PreTriggerTime>0</PreTriggerTime>
+        <TriggerAtStart>0</TriggerAtStart>
+        <TriggerSignal>[65534:259543]</TriggerSignal>
+        <TriggerType>0</TriggerType>
+        <TriggerLevel>0</TriggerLevel>
+        <ReOccurenceHandling>0</ReOccurenceHandling>
+        <ExtensionLimit>3</ExtensionLimit>
+        <UsePeriodic>0</UsePeriodic>
+        <PeriodicPeriod>60</PeriodicPeriod>
+        <PeriodicStartHours>0</PeriodicStartHours>
+        <PeriodicStartMinutes>0</PeriodicStartMinutes>
+        <StartTriggerDeadTime>0</StartTriggerDeadTime>
+      </StartTrigger>
+      <StopTrigger>
+        <Unconditional>1</Unconditional>
+        <MaximumRecordTime>6000000000</MaximumRecordTime>
+        <PostTriggerTime>0</PostTriggerTime>
+        <TriggerSignal>[65534:259543]</TriggerSignal>
+        <TriggerType>1</TriggerType>
+        <TriggerLevel>0</TriggerLevel>
+      </StopTrigger>
+      <Topics Count="33">
+        <Topic>
+          <Active>0</Active>
+          <Name>ibapda</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>$signalid</KeyFormat>
+          <Signals Count="15">
+            <Signal>
+              <Id>[3.11]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[3.12]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[3.13]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[3.14]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[3.15]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[3.16]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[3.17]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[6.0]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[8:0]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[8:1]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[8:2]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[8:3]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[8:4]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[8:5]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[8:6]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>0</Active>
+          <Name>stand_1</Name>
+          <Encoding>2</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>$signalid</KeyFormat>
+          <Signals Count="3">
+            <Signal>
+              <Id>[3.11]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[6.0]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+            <Signal>
+              <Id>[8:0]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>0</Active>
+          <Name>RollForceFS1_Act</Name>
+          <Encoding>2</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>$signalid</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[8:0]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>0</Active>
+          <Name>FS1_LoadOn</Name>
+          <Encoding>2</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>$signalid</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[3.11]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>0</Active>
+          <Name>AlarmEvent</Name>
+          <Encoding>2</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>$signalid</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[6.0]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll1-current-current</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll1</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:5]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll1-current-rollforce</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll1</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[8:0]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll1-current-rpm</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll1</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:4]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll1-loadon</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll1</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[3.11]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll2-current-current</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll2</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:7]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll2-current-rollforce</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll2</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[8:1]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll2-current-rpm</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll2</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:6]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll2-loadon</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll2</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[3.12]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll3-current-current</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll3</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:9]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll3-current-rollforce</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll3</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[8:2]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll3-current-rpm</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll3</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:8]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll3-loadon</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll3</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[3.13]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll4-current-current</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll4</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:11]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll4-current-rollforce</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll4</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[8:3]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll4-current-rpm</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll4</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:10]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll4-loadon</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll4</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[3.14]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll5-current-current</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll5</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:13]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll5-current-rollforce</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll5</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[8:4]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll5-current-rpm</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll5</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:12]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll5-loadon</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll5</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[3.15]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll6-current-current</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll6</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:15]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll6-current-rollforce</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll6</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[8:5]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll6-current-rpm</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll6</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:14]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll6-loadon</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll6</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[3.16]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll7-current-current</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll7</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:17]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll7-current-rollforce</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll7</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[8:5]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll7-current-rpm</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll7</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[2:16]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+        <Topic>
+          <Active>1</Active>
+          <Name>roll7-loadon</Name>
+          <Encoding>1</Encoding>
+          <MetaData>8</MetaData>
+          <IDFormat>$signalid</IDFormat>
+          <KeyFormat>roll7</KeyFormat>
+          <Signals Count="1">
+            <Signal>
+              <Id>[3.17]</Id>
+              <Profile>As is</Profile>
+            </Signal>
+          </Signals>
+        </Topic>
+      </Topics>
+    </KafkaArchiverLevel>
+  </KafkaArchiverLevels>
+  <MindSphereArchiverLevels Count="0" />
+</ArchiverConfiguration>

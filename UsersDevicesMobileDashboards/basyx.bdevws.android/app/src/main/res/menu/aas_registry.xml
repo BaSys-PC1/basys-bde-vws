@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:basyx="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_change_registry"
+        android:icon="@drawable/baseline_create_white_24"
+        android:title="Change Registry"
+        android:orderInCategory="1"
+        android:visible = "true" />
+    <item
+        android:id="@+id/menu_user_login"
+        android:icon="@drawable/baseline_create_white_24"
+        android:title="User Login"
+        android:orderInCategory="1"
+        android:visible = "false" />
+</menu>

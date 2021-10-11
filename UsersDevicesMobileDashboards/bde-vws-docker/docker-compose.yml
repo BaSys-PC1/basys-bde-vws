@@ -1,0 +1,61 @@
+ version: '3.8'
+ 
+ services: 
+    # The eyeled messaging MW for Betriebsdaten and Notifications using websocket connections
+    eyeled-mmw:
+        build:
+            dockerfile: Dockerfile_Eyeled_MMW
+            context: .
+        restart: always
+        environment:
+            DB_HOST_ADDRESS: ${DB_HOST_ADDRESS} # The DB server host address (DB)
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD} # The postgres DB password
+            POSTGRES_USER: ${POSTGRES_USER} # The postgress DB user name
+        ports: 
+            - "8080:8080"
+            
+    # The eyeled DB server for saving notification data and basys registry information (if activated via REGISTRY_TYPE)
+    eyeled-db:
+        build:
+            dockerfile: Dockerfile_Eyeled_Postgres
+            context: .
+        restart: always
+        environment:
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD} # The postgres DB password
+            POSTGRES_USER: ${POSTGRES_USER} # The postgress DB user name
+            POSTGRES_DB: ${POSTGRES_DB} # The default postgress DB used
+        ports:
+            - "5432:5432"
+            
+    # The eyeled BaSys Registry, AAS and Device Registration Server 
+    eyeled-basys:
+        build:
+            dockerfile: Dockerfile_Eyeled_BasysRegistry
+            context: .
+        restart: always
+        environment:
+            MAIN_HOST: ${MAIN_HOST} # The main host address for the AAS Registry and AAS components
+            REGISTRY_TYPE: ${REGISTRY_TYPE} # The registry server type (either IN_MEMORY or SQL)
+            REGISTRY_PORT: ${REGISTRY_PORT}
+            REGISTRY_SERVLETS: ${REGISTRY_SERVLETS} # The custom registry servlets
+            REGISTRY_HOST: ${REGISTRY_HOST} # The external Registry Host if DEACTIVATE_REGISTRY is TRUE (optional)
+            DEACTIVATE_REGISTRY: ${DEACTIVATE_REGISTRY} # If True the registry server won't start. Please use the REGISTRY_HOST instead
+            BDE_HOST_ADDRESS: ${BDE_HOST_ADDRESS} # The eyeled MW BDE server address (MMW)
+            NOTIFICATION_HOST_ADDRESS: ${NOTIFICATION_HOST_ADDRESS} # The notification server host address (MMW)
+            KAFKA_HOST_ADDRESS: ${KAFKA_HOST_ADDRESS} # The kafka host address
+            DB_HOST_ADDRESS: ${DB_HOST_ADDRESS} # The DB server host address (DB)
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD} # The postgres DB password
+            POSTGRES_USER: ${POSTGRES_USER} # The postgress DB user name
+        ports:
+            - "4000:4000" # Used for User AAS
+            - "4010:4010" # Used for device AAS & device registration
+            - "4020:4020" # Used for Iba Anlagen AAS (optional)
+            - "${REGISTRY_PORT}:${REGISTRY_PORT}" # Used for AAS Registry
+            
+    # Adminer docker service for accessing the postgres DB
+    adminer:
+        image: adminer
+        restart: always
+        ports:
+            - "8888:8080"
+        

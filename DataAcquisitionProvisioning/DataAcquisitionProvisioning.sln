@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ibaDaqAas", "ibaDaqAas\ibaDaqAas.csproj", "{91954CA4-8F28-431D-990F-1AB20ECD7DCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdaConfigManipulator", "PdaConfigManipulator\PdaConfigManipulator.csproj", "{73D34260-30A0-4771-B084-E9F7E4438735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91954CA4-8F28-431D-990F-1AB20ECD7DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91954CA4-8F28-431D-990F-1AB20ECD7DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91954CA4-8F28-431D-990F-1AB20ECD7DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91954CA4-8F28-431D-990F-1AB20ECD7DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D34260-30A0-4771-B084-E9F7E4438735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D34260-30A0-4771-B084-E9F7E4438735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D34260-30A0-4771-B084-E9F7E4438735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D34260-30A0-4771-B084-E9F7E4438735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D559CA39-2137-4163-9FFF-1FF6DFAD65ED}
+	EndGlobalSection
+EndGlobal

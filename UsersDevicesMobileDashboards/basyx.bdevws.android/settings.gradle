@@ -1,0 +1,4 @@
+include ':bdevwslib'
+include ':basyxlib'
+include ':app'
+rootProject.name='Basyx'

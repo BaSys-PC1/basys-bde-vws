@@ -1,0 +1,8 @@
+FROM openjdk:12-alpine
+WORKDIR /bde-registry
+COPY ./basyx.bdevws.lib/basyx.bdevws.lib-*.jar ./bde-registry.jar
+COPY ./basyx.bdevws.lib/libs/ ./libs/
+COPY ./basyx.bdevws.lib/data/ ./data/
+RUN ls
+RUN chmod 755 -R /bde-registry
+CMD "java" "-jar" "bde-registry.jar"
